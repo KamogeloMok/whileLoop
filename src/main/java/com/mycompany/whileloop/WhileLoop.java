@@ -23,14 +23,15 @@ public class WhileLoop {
             //Local integer variable
             int choice = Integer.parseInt(JOptionPane.showInputDialog("Do you want to continue?\n 1 = No 0 = Yes")); //prompt user
             state = choice;
-            switch (choice){
+            switch(choice){
                 case 0:
-                    break;
+                break;
                 case 1:
                  JOptionPane.showMessageDialog(null,"User Terminated the Program");
                  state = choice;
-                 break;
-                 default :
+                break;
+                
+                default:
                       JOptionPane.showMessageDialog(null,"wrong Input");
                  
                     
